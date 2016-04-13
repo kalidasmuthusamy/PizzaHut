@@ -1,0 +1,18 @@
+Case 1 : ( O1 = O2 = 1)
+		If there are two orders received with 1 pizza each, first and second order will be taken by chef A and chef B respectively and simultaneously. The two orders will be processed at the same time.
+
+Case 2 : (O1 = even and O2 = odd)
+		If the first order contains even number of pizzas to be delivered, both the chefs will be involved in first order till it is finished and then they move on to the next order. The last pizza of the second order will be cooked by the chef who is available at that time and its probably chef A.
+
+Case 3 : (O1 = odd and O2 = even)
+		When the last pizza of the first order is being processed by a chef, another chef will start to make pizzas for the next order and the cycle continues till order is done.
+
+Case 4 : (O1 = O2 = even)
+		Both the chefs will finish the first order and then move on to the next which will be processed as same as the first.
+
+Case 5 : (O1 = O2 = odd)
+		When the last pizza of the first order is being processed by a chef, another chef will start to make pizzas for the next order and there will be even number of pizzas left and hence the order will be done by making last two pizzas by the chefs simultaneously.
+
+
+
+The above cases will be applicable for any number of orders which follows the same logic as there are only two chefs.
